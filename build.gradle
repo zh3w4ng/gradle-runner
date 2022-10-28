@@ -63,4 +63,5 @@ jib {
     image = '674355965092.dkr.ecr.us-east-1.amazonaws.com/gradle-runner'
     credHelper = 'ecr-login'
   }
+  containerizingMode = 'packaged'
 }
